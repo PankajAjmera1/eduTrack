@@ -46,3 +46,33 @@ EduTrack is a web-based application accessible across various devices with a web
 4. Integrate frontend and backend components to create a seamless user experience.
 
 
+## Requirements
+
+- nodejs
+- npm
+- mongoDB
+- express
+
+
+
+## Getting started
+
+To get started with this project, first install the npm dependencies:
+```bash
+cd clone https://github.com/PankajAjmera1/eduTrack
+```
+
+
+```bash
+npm install
+```
+
+Next, run the development server:
+
+```bash
+npm run dev
+```
+Next, open localhost server:
+
+
+
