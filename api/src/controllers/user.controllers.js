@@ -1,4 +1,4 @@
-import { User } from "../models/user.model.js"; // Adjust the path as necessary
+import { User } from "../models/user.model.js"; 
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 import { asyncHandler } from '../utils/asyncHandler.js';
