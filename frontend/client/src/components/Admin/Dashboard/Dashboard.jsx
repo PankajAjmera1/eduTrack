@@ -7,7 +7,7 @@ import Sidebar from '../Sidebar'
 import { Progress } from '@chakra-ui/progress'
 import { HStack } from '@chakra-ui/layout'
 import { RiArrowDownLine, RiArrowUpLine } from 'react-icons/ri'
-import { DoughnutChart,LineChart } from './Chart.jsx'
+import { ContinentPieChart, CourseTypePieChart, DoughnutChart,LineChart, TopicPieChart } from './Chart.jsx'
 
 function Dashboard() {
   const Databox = ({ title, qty, qtyPercentage, profit }) => (
@@ -148,6 +148,7 @@ function Dashboard() {
                   value={50}
                 />
               </Box>
+              <TopicPieChart/>
             </Box>
 
             <Box p={['0', '16']} boxSizing="border-box" py="4">
@@ -156,6 +157,17 @@ function Dashboard() {
               <DoughnutChart
                
               />
+            <Box p={['0', '16']} boxSizing="border-box" py="4">
+
+            <ContinentPieChart/>
+               
+              </Box>  
+            <Box p={['0', '16']} boxSizing="border-box" py="4">
+
+            <CourseTypePieChart/>
+               
+              </Box>  
+              
             </Box>
           </Grid>
         </Box>

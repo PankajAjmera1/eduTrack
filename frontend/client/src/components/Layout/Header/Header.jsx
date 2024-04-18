@@ -22,6 +22,7 @@ function Header() {
 const {isOpen, onOpen, onClose} = useDisclosure()
 const isAuthenticated = true
 
+
 const user ={
   role: 'admin'
 }

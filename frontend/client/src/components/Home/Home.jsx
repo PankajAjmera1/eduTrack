@@ -60,13 +60,15 @@ function Home() {
                     </HStack>
                 </Box>
                 <div className="container2">
-                    <video
-                        controls
-                        controlsList="nodownload nofullscreen noremoteplayback"
-                        disablePictureInPicture
-                        disableRemotePlayback
-                        src={introVideo}
-        ></video>
+                <video
+        autoPlay
+        loop
+        controls
+        controlsList="nodownload nofullscreen noremoteplayback"
+        disablePictureInPicture
+        disableRemotePlayback
+        src={introVideo}
+      ></video>
         </div>
 
         </section >
