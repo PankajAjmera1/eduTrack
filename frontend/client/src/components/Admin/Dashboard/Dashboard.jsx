@@ -165,6 +165,7 @@ function Dashboard() {
             <Box p={['0', '16']} boxSizing="border-box" py="4">
 
             <CourseTypePieChart/>
+            <CourseTypePieChart/>
                
               </Box>  
               
