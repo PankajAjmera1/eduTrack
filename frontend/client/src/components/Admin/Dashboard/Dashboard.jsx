@@ -166,7 +166,10 @@ function Dashboard() {
 
             <CourseTypePieChart/>
             <CourseTypePieChart/>
+            <ContinentPieChart/>
+
             <CourseTypePieChart/>
+            
                
               </Box>  
               
