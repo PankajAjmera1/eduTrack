@@ -156,6 +156,11 @@ const Founder = () => (
           size={'xs'}
           children="Refund only applicable for cancellation within 7 days."
         />
+        <Heading
+          my="4"
+          size={'xs'}
+          children="Refund only applicable for cancellation within 7 days."
+        />
       </Box>
     </Box>
   );
